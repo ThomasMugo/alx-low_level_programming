@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- Main will print our statement using puts
+/**
+ *Main will print our statement using puts
  */
 int main(void)
 {
