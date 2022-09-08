@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- *Main will print our statement using puts
+ * main - will print our statement using puts
+ * Return: 0 if successfull
  */
 int main(void)
 {
