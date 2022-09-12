@@ -4,8 +4,13 @@
  * main - our functions are here
  * Return: 0 if successful
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	char x;
+	for (x = 'a'; x <= 'z'; x++)
+	{
+		_putchar(x);
+	}
+	_putchar('\n');
 	return (0);
 }
