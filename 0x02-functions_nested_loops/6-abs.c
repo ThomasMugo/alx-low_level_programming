@@ -5,10 +5,8 @@
  * @n: our character
  * Return: 0 if successful
  */
-int _abs(int)
+int _abs(int n)
 {
-	int n;
-	
 	if (n < 0)
 	{
 		n = n * (-1);
