@@ -6,7 +6,7 @@
  * @b: another character
  * Return: result
  */
-int add(int a, int b,)
+int add(int a, int b)
 {
 	int result;
 
