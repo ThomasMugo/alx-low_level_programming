@@ -5,7 +5,7 @@
  * @size: our characters
  * Return: void
  */
-void print_square(void)
+void print_square(int size)
 {
 	if (size <= 0)
 	{
