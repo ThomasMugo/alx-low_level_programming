@@ -2,7 +2,7 @@
 
 /**
  * print_triangle - our statements are here
- * @size: our characters
+ * @size: our characters in the triangle
  * Return: void
  */
 void print_triangle(int size)
