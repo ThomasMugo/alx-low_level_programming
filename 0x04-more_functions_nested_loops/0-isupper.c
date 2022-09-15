@@ -3,10 +3,8 @@
 /**
  * _isupper - our statements are here
  * @c: character
- * Return: 0 or 1
+ * Return: 1 if uppercase and 0 otherwise
  */
-
-
 int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
