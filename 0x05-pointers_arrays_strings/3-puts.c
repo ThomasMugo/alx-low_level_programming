@@ -3,12 +3,16 @@
 /**
  * _puts - our statements are here
  * @str: out pointer
+ * Return: void
  */
 void _puts(char *str)
 {
-	while (*str)
+	int i = 0;
+
+	while (*(str + i))
 	{
-		_puts(*str++);
+		_putchar(*(str + i));
+		i++;
 	}
 	_putchar('\n');
 }
