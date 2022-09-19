@@ -2,7 +2,8 @@
 
 /**
  * _strlen - our statements are here
- * *s: our pointer
+ * @s: our pointer
+ * Return: length
  */
 int _strlen(char *s)
 {
