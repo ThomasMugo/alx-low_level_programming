@@ -11,7 +11,7 @@ void rev_string(char *s)
 
 	while (s[i++])
 	{
-		c++;
+		j++;
 	}
 	for (i = j - 1; i >= j / 2; i--)
 	{
