@@ -2,8 +2,8 @@
 
 /**
  * _strcpy - our statements are here
- * @src: source
- * @dest: destination
+ * @src: our source
+ * @dest: our destination
  * Return: pointer to dest
  */
 char *_strcpy(char *dest, char *src)
