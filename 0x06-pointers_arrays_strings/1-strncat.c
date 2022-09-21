@@ -4,6 +4,7 @@
  * _strncat - concatenate strings
  * @dest: our pointer
  * @src: our pointer
+ * @n: our int
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
