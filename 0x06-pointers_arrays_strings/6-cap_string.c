@@ -5,12 +5,12 @@
  * @s: our pointer
  * Return: s
  */
-char *cap_string(char *)
+char *cap_string(char s*)
 {
 	int i = 0, j;
 	char a[] = " \t\n,;.!?\"(){}";
 
-	while(*(s + i))
+	while (*(s + i))
 	{
 		if (*(s + i) >= 'a' && *(s + i) <= 'z')
 		{
