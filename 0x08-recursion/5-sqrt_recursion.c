@@ -3,7 +3,7 @@
 /**
  * sqrt_check - checks for the square root of b
  * @a: our guess at sqrt
- * @b: number to find sqrt 
+ * @b: number to find sqrt
  * Return: value of the square root
  */
 int sqrt_check(int a, int b)
@@ -18,7 +18,7 @@ int sqrt_check(int a, int b)
 /**
  * _sqrt_recursion - finds the natural square root of a number
  * @n: our integer
- * Return: natural square root or -1
+ * Return: value of the square root
  */
 int _sqrt_recursion(int n)
 {
