@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 	while (*argv)
 	{
 		(void) argc;
-		printf("%S\n", *argv);
+		printf("%s\n", *argv);
 		argv++;
 	}
 	return (0);
