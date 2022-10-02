@@ -1,21 +1,48 @@
-#include <main.h>
-0-isupper.o
-0-memset.o
-0-strcat.o
-1-isdigit.o
-1-memcpy.o
-1-strncat.o
-100-atoi.o
-2-strchr.o
-2-strlen.o
-2-strncpy.o
-3-islower.o
-3-puts.o
-3-strcmp.o
-3-strspn.o
-4-isalpha.o
-4-strpbrk.o
-5-strstr.o
-6-abs.o
-9-strcpy.o
-_putchar.o
+#include "main.h"
+
+/**
+ * _strncpy - copy n characters of string in other
+ * @dest: destination
+ * @src: source
+ * @n: number of characters
+ * Return: dst
+ */
+char *_strncpy(char *dest, char *src, int n)
+{
+	int i = 0;
+
+		for (i = 0 ; i < n ; i++)
+		{
+			dest[i] = src[i];
+
+			if (src[i] == '\0')
+				break;
+		}
+
+		while (i < n)
+		{
+			dest[i] = '\0';
+			i++;
+		}
+
+
+
+	return (dest);
+}
+
+/**
+ * _strlen - return the length of a string
+ * @s: the string to check
+ * Return: lenght
+ */
+int _strlen(char *s)
+{
+	int length = 0;
+
+	while (s[length] != '\0')
+	{
+		length++;
+	}
+
+	return (length);
+}
